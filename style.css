@@ -1,0 +1,44 @@
+body {
+    font-family:Times,serif, 'Times New Roman';
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.task-item {
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+h2{
+    color:darkslategray
+}
+.addbutton-btn:hover {
+    background-color:blueviolet;
+}
+
+
+button {
+    background-color: #007bff; 
+    color: #fff;
+    border:black; 
+    padding: 5px 15px; /* Add padding to the button */
+    cursor: pointer; 
+}
+
+/* Define hover styles for buttons */
+button:hover {
+    background-color:rgb(146, 216, 193); /* Change background color on hover */
+    color:black; /* Default button text color */
+}
